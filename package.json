@@ -2,7 +2,7 @@
   "name": "huppup",
   "version": "1.0.0",
   "scripts": {
-    "dev": "blitz dev",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && blitz dev",
     "build": "blitz build",
     "start": "blitz start",
     "studio": "blitz prisma studio",
